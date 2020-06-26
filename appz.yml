@@ -19,4 +19,4 @@ monitor:
 properties:
     ADMIN_PASSWORD:
       vault: ADMIN_PASSWORD
-    revision: 02
+    revision: 01
