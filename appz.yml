@@ -17,4 +17,6 @@ deploy:
 monitor:
     notify: appzops@cloudbourne.co      
 properties:
+    ADMIN_PASSWORD:
+      vault: ADMIN_PASSWORD
     revision: 01
