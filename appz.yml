@@ -8,13 +8,13 @@ build:
     build_file: none
     output_files: output/*.zip
     image_template: grafana-7.0
-    image_name: alpha/grafana
 deploy:
     context: alpha/DEV
     replicas: 1
     port:
     - 3000
-monitor:
-    notify: appzops@cloudbourne.co      
 properties:
+    ADMIN_PASSWORD:     
+       vault: ADMIN_PASSWORD
+    PROM_URL: http://prometheus:9090
     revision: 01
