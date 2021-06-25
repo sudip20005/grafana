@@ -17,4 +17,4 @@ properties:
     ADMIN_PASSWORD:     
        vault: ADMIN_PASSWORD
     PROM_URL: http://prometheus-2-17:9090/
-    revision: 01
+    revision: 02
