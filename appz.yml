@@ -2,14 +2,17 @@ app:
     name: grafana
     code: Grafana
     notify: appzdev@cloudbourne.co
+    
 build:
     version: 7.0
     env: DEV
     build_file: none
     output_files: output/*.zip
     image_template: grafana-7.0
+    
 deploy:
     context: alpha/DEV
+    type: statefulset
     replicas: 1
     port:
     - 3000
