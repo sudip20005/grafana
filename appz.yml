@@ -1,7 +1,7 @@
 app:
     name: grafana
     code: Grafana
-    notify: appzdev@cloudbourne.co
+    notify: hj.nalamwar@gmail.com
     
 build:
     version: 7.0
