@@ -5,13 +5,13 @@ app:
     
 build:
     version: 7.0
-    env: QA
+    env: DEV
     build_file: none
     output_files: output/*.zip
     image_template: grafana-7.0
     
 deploy:
-    context: alpha/QA
+    context: alpha/DEV
     type: statefulset
     replicas: 1
     port:
@@ -37,5 +37,5 @@ properties:
     GF_AUTH_GENERIC_OAUTH_API_URL: https://appz.038ecc66.lowtouch.cloud/openid/userinfo 
     GF_AUTH_GENERIC_OAUTH_NAME_ATTRIBUTE_PATH: nickname 
     GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: contains(roles[*], 'admin') && 'Admin' || 'Viewer'
-    GF_SERVER_ROOT_URL: https://alpha-qa-grafana-7-0.038ecc66.lowtouch.cloud
+    GF_SERVER_ROOT_URL: https://alpha-dev-grafana-7-0.038ecc66.lowtouch.cloud
     revision: 15
