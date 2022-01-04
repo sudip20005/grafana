@@ -32,10 +32,10 @@ properties:
     GF_AUTH_GENERIC_OAUTH_CLIENT_ID: grafana
     GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: someSuperSecret
     GF_AUTH_GENERIC_OAUTH_SCOPES: openid profile email  
-    GF_AUTH_GENERIC_OAUTH_AUTH_URL: https://appz.32d430c5.lowtouch.cloud/openid/authorize 
-    GF_AUTH_GENERIC_OAUTH_TOKEN_URL: https://appz.32d430c5.lowtouch.cloud/openid/token 
-    GF_AUTH_GENERIC_OAUTH_API_URL: https://appz.32d430c5.lowtouch.cloud/openid/userinfo 
+    GF_AUTH_GENERIC_OAUTH_AUTH_URL: https://appz.038ecc66.lowtouch.cloud/openid/authorize 
+    GF_AUTH_GENERIC_OAUTH_TOKEN_URL: https://appz.038ecc66.lowtouch.cloud/openid/token 
+    GF_AUTH_GENERIC_OAUTH_API_URL: https://appz.038ecc66.lowtouch.cloud/openid/userinfo 
     GF_AUTH_GENERIC_OAUTH_NAME_ATTRIBUTE_PATH: nickname 
     GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: contains(roles[*], 'admin') && 'Admin' || 'Viewer'
-    GF_SERVER_ROOT_URL: https://alpha-dev-grafana-7-0.32d430c5.lowtouch.cloud
+    GF_SERVER_ROOT_URL: https://alpha-dev-grafana-7-0.038ecc66.lowtouch.cloud
     revision: 20
