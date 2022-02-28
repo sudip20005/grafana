@@ -19,6 +19,7 @@ deploy:
 
 volumes:
   - claim: grafana-data
+    class: microk8s-hostpath
     mount: /appz/data
     name: data
     size: 5Gi
