@@ -14,7 +14,7 @@ deploy:
     context: alpha/DEV
     type: statefulset
     replicas: 1
-    ingress: nodeport
+    ingress: service_namespace
     port:
     - 3000
 
