@@ -27,16 +27,16 @@ properties:
     ADMIN_PASSWORD:     
        vault: ADMIN_PASSWORD
     PROM_URL: http://prometheus-2-17:9090/
-    #GF_AUTH_GENERIC_OAUTH_ENABLED: true
-    #GF_AUTH_GENERIC_OAUTH_NAME: AppZ 
-    #GF_AUTH_GENERIC_OAUTH_CLIENT_ID: grafana
-    #GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: 
-    #  vault: GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET
-    #GF_AUTH_GENERIC_OAUTH_SCOPES: openid profile email  
-    #GF_AUTH_GENERIC_OAUTH_AUTH_URL: https://appz.038ecc66.lowtouch.cloud/openid/authorize 
-    #GF_AUTH_GENERIC_OAUTH_TOKEN_URL: https://appz.038ecc66.lowtouch.cloud/openid/token 
-    #GF_AUTH_GENERIC_OAUTH_API_URL: https://appz.038ecc66.lowtouch.cloud/openid/userinfo 
-    #GF_AUTH_GENERIC_OAUTH_NAME_ATTRIBUTE_PATH: anyname
-    #GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: contains(roles[*], 'admin') && 'Admin' || 'Viewer'
-    #GF_SERVER_ROOT_URL: https://alpha-dev-grafana-7-0.038ecc66.lowtouch.cloud
+    GF_AUTH_GENERIC_OAUTH_ENABLED: true
+    GF_AUTH_GENERIC_OAUTH_NAME: AppZ 
+    GF_AUTH_GENERIC_OAUTH_CLIENT_ID: grafana
+    GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: 
+      vault: GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET
+    GF_AUTH_GENERIC_OAUTH_SCOPES: openid profile email  
+    GF_AUTH_GENERIC_OAUTH_AUTH_URL: https://appz.14cc4e9f.lowtouch.cloud/openid/authorize 
+    GF_AUTH_GENERIC_OAUTH_TOKEN_URL: https://appz.14cc4e9f.lowtouch.cloud/openid/token 
+    GF_AUTH_GENERIC_OAUTH_API_URL: https://appz.14cc4e9f.lowtouch.cloud/openid/userinfo 
+    GF_AUTH_GENERIC_OAUTH_NAME_ATTRIBUTE_PATH: anyname
+    GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: contains(roles[*], 'admin') && 'Admin' || 'Viewer'
+    GF_SERVER_ROOT_URL: https://alpha-dev-grafana-7-0.14cc4e9f.lowtouch.cloud
     revision: 43
