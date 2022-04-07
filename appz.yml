@@ -1,7 +1,7 @@
 app:
     name: grafana
     code: Grafana
-    notify: bkoshy@ecloudcontrol.com
+    notify: cmsit-alerts@ecloudcontrol.com
     
 build:
     version: 7.0
