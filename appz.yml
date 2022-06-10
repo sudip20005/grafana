@@ -31,8 +31,7 @@ properties:
     GF_AUTH_GENERIC_OAUTH_ENABLED: true
     GF_AUTH_GENERIC_OAUTH_NAME: AppZ 
     GF_AUTH_GENERIC_OAUTH_CLIENT_ID: grafana
-    GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: 
-      vault: GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET
+    GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: someSuperSecret
     GF_AUTH_GENERIC_OAUTH_SCOPES: openid profile email  
     GF_AUTH_GENERIC_OAUTH_AUTH_URL: https://appz.openebs-staging.32d430c5.lowtouch.cloud/openid/authorize 
     GF_AUTH_GENERIC_OAUTH_TOKEN_URL: https://appz.openebs-staging.32d430c5.lowtouch.cloud/openid/token 
