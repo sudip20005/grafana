@@ -11,7 +11,7 @@ build:
     image_template: grafana-7.0
     
 deploy:
-    context: alpha/DEV
+    context: sudip20005/DEV
     type: statefulset
     replicas: 1
     port:
